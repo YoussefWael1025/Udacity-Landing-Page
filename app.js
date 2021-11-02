@@ -62,7 +62,7 @@ window.addEventListener('scroll', () => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
     // i used the -15 because scrollIntoView of the previous function was off by 15 px from this one
-    if (window.pageYOffset > sectionTop-15) {
+    if (window.pageYOffset > sectionTop-165) {
       current = section.getAttribute('id');
     }
   });
